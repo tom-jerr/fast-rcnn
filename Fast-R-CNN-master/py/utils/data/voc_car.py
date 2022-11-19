@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@date: 2020/3/25 下午3:03
-@file: voc_car.py
-@author: zj
-@description: 提取car类别训练和验证集
-"""
+
 
 import os
 import shutil

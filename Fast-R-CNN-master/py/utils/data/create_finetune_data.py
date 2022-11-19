@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@date: 2020/2/29 下午7:22
-@file: create_finetune_data.py
-@author: zj
-@description: 创建微调数据集
-"""
+
 
 import time
 import shutil

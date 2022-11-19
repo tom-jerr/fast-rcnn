@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""
-@author: zj
-@file:   selectivesearch.py
-@time:   2020-02-25
-"""
 
 import sys
 import cv2
@@ -43,10 +38,10 @@ if __name__ == '__main__':
     选择性搜索算法操作
     """
     gs = get_selective_search()
-
-    img = cv2.imread('utils/data/lena.jpg', cv2.IMREAD_COLOR)
+    path = "utils/lena.jpg"
+    img = cv2.imread(path, cv2.IMREAD_COLOR)
     config(gs, img, strategy='q')
-
+    print("config is OK!")
     rects = get_rects(gs)
     print(rects)
     imout = img.copy()

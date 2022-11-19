@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@date: 2020/3/31 下午2:55
-@file: vgg16_roi.py
-@author: zj
-@description: 
-"""
+
 
 import torch
 import torch.nn as nn

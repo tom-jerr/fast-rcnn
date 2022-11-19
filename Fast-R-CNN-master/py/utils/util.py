@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@date: 2020/3/25 下午3:06
-@file: util.py
-@author: zj
-@description: 
-"""
+
 
 import os
 import numpy as np

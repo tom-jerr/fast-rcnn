@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@date: 2020/3/31 下午8:26
-@file: custom_finetune_dataset.py
-@author: zj
-@description: 
-"""
+
 
 import random
 from selectivesearch import get_selective_search, config, get_rects
@@ -125,6 +120,7 @@ if __name__ == '__main__':
             gs = get_selective_search()
             config(gs, img, strategy='q')
             rects = get_rects(gs)
+            plt.imshow(img)
             img = img.copy()
             for i, rect in enumerate(rects):
                 if (i < 100):
@@ -133,6 +129,7 @@ if __name__ == '__main__':
                 else:
                     break
             plt.imshow(img)
+
             plt.show()
             break
 

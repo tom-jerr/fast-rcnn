@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@date: 2020/3/31 下午3:17
-@file: roi_pool.py
-@author: zj
-@description: 
-"""
+
 
 import torch.nn as nn
 

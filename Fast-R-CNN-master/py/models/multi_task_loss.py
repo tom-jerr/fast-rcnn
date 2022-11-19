@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@date: 2020/3/31 下午3:33
-@file: multi_task_loss.py
-@author: zj
-@description: 
-"""
+
 
 import torch
 import torch.nn as nn

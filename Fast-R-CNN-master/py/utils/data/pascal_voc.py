@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""
-@date: 2020/3/25 下午2:59
-@file: pascal_voc.py
-@author: zj
-@description: 下载PASCAL VOC 2007
-"""
+
 
 import cv2
 import numpy as np
